@@ -27,19 +27,19 @@ const getDataWeather = async () => {
   weathType.innerText = weatherType;
 
   if (weatherType == "Clear") {
-    weatherImgIcon.src = "images/clear.png";
+    weatherImgIcon.src = "images/clear.webp";
   } else if (weatherType == "Clouds") {
-    weatherImgIcon.src = "images/clouds.png";
+    weatherImgIcon.src = "images/clouds.webp";
   } else if (weatherType == "Drizzle") {
-    weatherImgIcon.src = "images/drizzle.png";
+    weatherImgIcon.src = "images/drizzle.webp";
   } else if (weatherType == "Mist" || weatherType == "Haze") {
-    weatherImgIcon.src = "images/mist.png";
+    weatherImgIcon.src = "images/mist.webp";
   } else if (weatherType == "Rain") {
-    weatherImgIcon.src = "images/rain.png";
+    weatherImgIcon.src = "images/rain.webp";
   } else if (weatherType == "Wind") {
-    weatherImgIcon.src = "images/wind.png";
+    weatherImgIcon.src = "images/wind.webp";
   } else if (weatherType == "Thunderstorm") {
-    weatherImgIcon.src = "images/Thunderstorm.png";
+    weatherImgIcon.src = "images/Thunderstorm.webp";
   }
 };
 
