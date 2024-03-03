@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input class="inputBox" id="inputDistrict" type="text" placeholder="Search City">
+            <button class="inputSearch" id="inputBtn"><img class="searchIcon" src="images/search.png"></button>
+        </div>
+        <div class="weatherImg">
+            <img class="weatherImgIcon">
+            <p class="textP1" id="weatherType"></p>
+        </div>
+        <div class="temp">
+            <p id="temprature"></p>
+            <p id="location"></p>
+        </div>
+        <div class="info">
+            <div class="humadity">
+                <img class="infoImg" src="images/humidity.png" alt="">
+                <div class="text">
+                    <p class="textP1" id="humadityData"></p>
+                    <p class="textP2">Humadity</p>
+                </div>
+            </div>
+            <div class="windSpeed">
+                <img class="infoImg" src="images/wind.png" alt="">
+                <div class="text">
+                    <p class="textP1" id="windSpeedData"></p>
+                    <p class="textP2">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
